@@ -1,0 +1,50 @@
+{
+  "info": {
+    "name": "Online Food Ordering System",
+    "description": "Postman Collection for Food Ordering APIs"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/register"
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/login"
+      }
+    },
+    {
+      "name": "Add Restaurant",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/restaurants"
+      }
+    },
+    {
+      "name": "Add Food Item",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/food-items"
+      }
+    },
+    {
+      "name": "Add Customer",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/customers"
+      }
+    },
+    {
+      "name": "Place Order",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/orders"
+      }
+    }
+  ]
+}
